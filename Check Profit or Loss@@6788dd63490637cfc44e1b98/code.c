@@ -2,7 +2,7 @@
 int main(){
     int a,b;
     scanf("%d%d",&a,&b);
-    int c=b-a;
+    int c=a-b;
     if (c>0){
         printf("Profit");
     }
