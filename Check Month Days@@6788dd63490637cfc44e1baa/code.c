@@ -14,4 +14,5 @@ int main(){
     else if(a=='4'){
         printf("30")
     }
+    return 0;
 }
