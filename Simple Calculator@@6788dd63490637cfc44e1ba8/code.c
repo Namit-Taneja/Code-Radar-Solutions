@@ -1,10 +1,11 @@
 #include <stdio.h>
 int main(){
-    int a,b;
+    int a,b,d;
     char c;
     scanf("%d%d%c",&a,&b,&c);
     if (c=='+'){
-        printf("%d",a+b);
+        d=a+b;
+        printf("%d",d);
     }
     else if(c=='-'){
         printf("%d",a-b);
@@ -12,12 +13,11 @@ int main(){
     else if(c=='*'){
         printf("%d",a*b);
     }
-    else//(c=='/')
-    {
+    else if(c=='/'){
         printf("%d",a/b);
     }
-    // else{
-    //     printf("error");
-    // }
+    else{
+        printf("error");
+    }
     return 0;
 }
