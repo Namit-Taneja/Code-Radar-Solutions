@@ -12,7 +12,7 @@ int main(){
         printf("30");
     }
     else{
-        printf("Invalid")
+        printf("Invalid");
     }
 
     return 0;
