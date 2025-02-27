@@ -21,7 +21,7 @@ int main()
                 sum=sum+rem;
                 a=a/10;
             }
-            printf("%d",sum);
+            
         }
         else{
             a=abs(arr[i]);
@@ -30,8 +30,9 @@ int main()
                 sum=sum+rem;
                 a=a/10;
             }
-            printf("%d",sum);
+            
         }
+        printf("%d",sum);
     }
     return 0;
 }
