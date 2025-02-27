@@ -12,8 +12,9 @@ int main()
     int rem=0;
     for (int i=0;i<n;i++){
         int sum=0;
-        int a=arr[i];
+        
         if(a>=0){
+            int a=arr[i];
             while(a>0){
                 rem=a%10;
                 sum=sum+rem;
