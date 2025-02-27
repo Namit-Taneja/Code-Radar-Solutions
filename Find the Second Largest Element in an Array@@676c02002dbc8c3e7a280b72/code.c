@@ -10,6 +10,11 @@ int main(){
     // for(int i=0;i<n;i++){
         
     // }
-    printf("%d",arr[n-2]);
+    if(n=1){
+        printf("%d",arr[i])
+    }
+    else{
+        printf("%d",arr[n-2]);
+    }
     return 0;
 }
