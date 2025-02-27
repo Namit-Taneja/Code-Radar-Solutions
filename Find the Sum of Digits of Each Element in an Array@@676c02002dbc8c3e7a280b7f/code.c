@@ -13,7 +13,7 @@ int main()
     for (int i=0;i<n;i++){
         int sum=0;
         
-        if(a>=0){
+        if(arr[i]>=0){
             int a=arr[i];
             while(a>0){
                 rem=a%10;
