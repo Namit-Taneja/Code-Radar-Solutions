@@ -8,8 +8,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int k;
-    if(n>k){
+    
     scanf("%d",&k);
+    if(n>k){
     for(int i=n-k;i<n;i++){
         printf("%d ",arr[i]);
     }
