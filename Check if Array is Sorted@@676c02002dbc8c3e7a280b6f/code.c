@@ -12,7 +12,7 @@ int main(){
         if(i==0){
             if(arr[i]>arr[i+1]){
                 printf("Not Sorted");
-                sorted=-1;
+                // sorted=-1;
                 break;
                 
             }
@@ -20,14 +20,14 @@ int main(){
         else if(i==n-1){
             if(arr[i]<arr[n-2]){
                 printf("Not Sorted");
-                sorted=-1;
+                // sorted=-1;
                 break;
             }
         }
         else{
             if(arr[i]<arr[i-1] || arr[i]>arr[i+1]){
                 printf("Not Sorted");
-                sorted=-1;
+                // sorted=-1;
                 break;
             }
         }
