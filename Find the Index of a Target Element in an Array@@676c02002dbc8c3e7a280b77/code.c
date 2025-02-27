@@ -11,11 +11,11 @@ int main(){
     scanf("%d",&k);
     for(int i=0;i<n;i++){
         if(k==arr[i]){
-            
             printf("%d",i);
             break;
         }
         else{
+            continue;
             printf("-1");
             break;
         }
