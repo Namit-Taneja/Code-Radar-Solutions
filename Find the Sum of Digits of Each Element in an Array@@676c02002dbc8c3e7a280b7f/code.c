@@ -9,5 +9,4 @@ int main()
         scanf("%d",&arr);
     }
     int sum=0;
-    int
 }
