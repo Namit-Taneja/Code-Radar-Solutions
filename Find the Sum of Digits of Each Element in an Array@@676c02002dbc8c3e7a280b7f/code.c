@@ -10,11 +10,12 @@ int main()
         scanf("%d",&arr);
     }
     int rem=0;
+    int a=0;
     for (int i=0;i<n;i++){
         int sum=0;
         
         if(arr[i]>=0){
-            int a=arr[i];
+            a=arr[i];
             while(a>0){
                 rem=a%10;
                 sum=sum+rem;
