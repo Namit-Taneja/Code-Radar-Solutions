@@ -10,7 +10,6 @@ int main(){
     int k;
     scanf("%d",&k);
     for(int i=0;i<n;i++){
-        if(k>0){
         if(k==arr[i]){
             printf("%d",i);
             break;
@@ -18,11 +17,7 @@ int main(){
         else{
             continue;
         }
-        }
-        else{
-            printf("-1");
-        }
-
+        
     }
     return 0;
 }
