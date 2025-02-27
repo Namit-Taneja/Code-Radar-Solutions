@@ -11,7 +11,7 @@ int main(){
         
     // }
     if(n=1){
-        printf("%d",arr[i])
+        printf("%d",arr[i]);
     }
     else{
         printf("%d",arr[n-2]);
