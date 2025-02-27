@@ -9,19 +9,31 @@ int main(){
     }
     int sorted=1;
     for(int i=0;i<n;i++){
-        if(arr[i]>=arr[i-1] || arr[i]<=arr[i+1]){
+        if(i==0){
+            if(arr[i]>arr[i+1]){
+                printf("Not Sorted");
+                sorted=-1;
+                break;
+                
+            }
+        }
+        else if(i==n-1){
+            if(arr[i]<arr[n-2]){
+                printf("Not Sorted");
+                sorted=-1;
+                break;
+            }
         }
         else{
-            sorted=0;
-            break;
+            if(arr[i]<arr[i-1] || arr[i]>arr[i+1]){
+                printf("Not Sorted");
+                sorted=-1;
+                break;
+            }
         }
-
     }
     if(sorted==1){
         printf("Sorted");
-    }
-    else{
-        printf("Not Sorted");
     }
     return 0;
 }
