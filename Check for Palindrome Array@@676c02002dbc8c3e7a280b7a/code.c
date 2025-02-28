@@ -5,6 +5,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     int arr2[n];
+    int a=1;
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
@@ -13,11 +14,18 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(arr[i]!=arr2[i]){
-            printf("YES");
+            a+=1;
         }
         else{
-            printf("NO");
+            continue;
         }
     }
+    if(a==1){
+        printf("YES");
+    }
+    else{
+        printf("NO");
+    }
     return 0;
+
 }
