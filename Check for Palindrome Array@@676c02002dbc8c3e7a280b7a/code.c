@@ -20,7 +20,7 @@ int main(){
             continue;
         }
     }
-    if(a>=1){
+    if(a>1){
         printf("NO");
     }
     else{
