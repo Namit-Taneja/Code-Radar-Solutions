@@ -12,11 +12,11 @@ int main(){
         scanf("%d",&arr2[i]);
     }
     for(int i=0;i<n;i++){
-        if(arr[i]==arr2[i]){
-            printf("YES");
+        if(arr[i]!=arr2[i]){
+            printf("NO");
         }
         else{
-            printf("NO");
+            printf("YES");
         }
     }
     return 0;
