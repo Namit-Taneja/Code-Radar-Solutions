@@ -14,7 +14,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(arr[i]!=arr2[i]){
-            a=-1;
+            a=a+1;
         }
         else{
             continue;
@@ -23,7 +23,7 @@ int main(){
     if(a==1){
         printf("YES");
     }
-    else{
+    else if (a>1){
         printf("NO");
     }
     return 0;
