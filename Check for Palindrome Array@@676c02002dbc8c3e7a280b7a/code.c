@@ -14,17 +14,17 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(arr[i]!=arr2[i]){
-            a+=1;
+            a=-1;
         }
         else{
             continue;
         }
     }
-    if(a>1){
-        printf("NO");
+    if(a==1){
+        printf("YES");
     }
     else{
-        printf("YES");
+        printf("NO");
     }
     return 0;
 
