@@ -13,7 +13,7 @@ int main(){
         scanf("%d",&arr2[i]);
     }
     for(int i=0;i<n;i++){
-        printf("%d",arr2[i]);
+        printf("%d",arr[i]);
     }
     for(int i=0;i<n;i++){
         if(arr[i]!=arr2[i]){
