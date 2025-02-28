@@ -26,6 +26,9 @@ int main(){
     else if (a>1){
         printf("NO");
     }
+    else{
+        printf(YES)
+    }
     return 0;
 
 }
