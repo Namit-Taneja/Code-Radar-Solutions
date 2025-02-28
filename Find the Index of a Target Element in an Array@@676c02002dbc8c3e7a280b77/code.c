@@ -15,7 +15,7 @@ int main(){
             break;
         }
         else{
-            continue;
+            printf("-1");
         }
         
     }
