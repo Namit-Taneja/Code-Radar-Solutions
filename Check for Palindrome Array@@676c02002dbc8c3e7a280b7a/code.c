@@ -10,10 +10,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=n;i>0;i--){
-        scanf("%d",&arr2[i]);
-    }
-    for(int i=0;i<n;i++){
-        printf("%d",arr2[i]);
+        arr2[i]=arr[i]
     }
     for(int i=0;i<n;i++){
         if(arr[i]!=arr2[i]){
@@ -24,10 +21,10 @@ int main(){
         }
     }
     if(a==1){
-        printf("NO");
+        printf("YES");
     }
     else{
-        printf("YES");
+        printf("NO");
     }
     return 0;
 
