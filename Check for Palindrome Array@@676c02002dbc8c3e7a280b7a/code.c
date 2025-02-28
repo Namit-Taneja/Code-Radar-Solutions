@@ -21,10 +21,10 @@ int main(){
         }
     }
     if(a==1){
-        printf("YES");
+        printf("NO");
     }
     else{
-        printf("NO");
+        printf("YES");
     }
     return 0;
 
