@@ -23,12 +23,10 @@ int main(){
     if(a==1){
         printf("YES");
     }
-    else if (a>1){
+    else{
         printf("NO");
     }
-    else{
-        printf("YES");
-    }
+   
     return 0;
 
 }
