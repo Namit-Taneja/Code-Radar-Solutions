@@ -12,6 +12,9 @@ int main(){
     for(int i=n-1;i>0;i--){
         scanf("%d",&arr2[i]);
     }
+    for(int i<0;i<n;i++){
+        printf("%d",arr2[i]);
+    }
     for(int i=0;i<n;i++){
         if(arr[i]!=arr2[i]){
             a+=1;
