@@ -21,6 +21,7 @@ void printPrimesInRange(int a,int b){
         else{
         int count=0;
         for(int j=2;j<=i;j++){
+            int count_prime=0;
             if(i%j==0){
                 count+=1;
             }
@@ -29,10 +30,14 @@ void printPrimesInRange(int a,int b){
             }
         }
         if(count==1){
+            count_prime+=1;
             printf("%d ",i);
         }
         else{
             continue;
+        }
+        if(count_prime==0){
+            printf("No prime numbers");
         }
         }
     }
