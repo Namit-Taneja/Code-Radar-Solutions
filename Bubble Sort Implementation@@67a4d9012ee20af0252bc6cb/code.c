@@ -12,6 +12,6 @@ int bubbleSort(int arr[],int n){
 }
 int printArray(int arr[],int n){
     for(int k=0;k<n-1;k++){
-        return i;
+        return k;
     }
 }
