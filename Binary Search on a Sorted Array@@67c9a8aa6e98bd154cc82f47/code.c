@@ -8,4 +8,5 @@ int binarySearch(int arr[],int n,int target){
             continue;
         }
     }
+    return -1;
 }
