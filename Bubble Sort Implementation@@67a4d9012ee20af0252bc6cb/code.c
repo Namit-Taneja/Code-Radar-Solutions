@@ -10,8 +10,8 @@ int bubbleSort(int arr[],int n){
         }
     }
 }
-int printArray(int arr[],int n){
+void printArray(int arr[],int n){
     for(int k=0;k<n-1;k++){
-        return arr[k];
+        printf("%d ",arr[k]);
     }
 }
