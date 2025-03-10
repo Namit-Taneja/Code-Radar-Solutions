@@ -13,7 +13,7 @@ void printPrimesInRange(int a,int b){
                 }
             }
             if(c==2){
-                printf("%d ",a)
+                printf("%d ",a);
             }
             else{
             printf("No prime numbers");}
