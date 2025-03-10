@@ -1,6 +1,6 @@
 // Your code here...
 void printPrimesInRange(int a,int b){
-
+int count_prime=0;
     for(int i=a;i<=b;i++){
         if(a==b){
             int c=0;
@@ -21,7 +21,7 @@ void printPrimesInRange(int a,int b){
         else{
         int count=0;
         for(int j=2;j<=i;j++){
-            int count_prime=0;
+            
             if(i%j==0){
                 count+=1;
             }
