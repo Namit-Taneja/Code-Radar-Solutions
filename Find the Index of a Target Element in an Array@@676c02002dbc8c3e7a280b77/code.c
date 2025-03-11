@@ -17,6 +17,7 @@ int main(){
         else{
             continue;
         }
+        printf("-1");
         
     }
     return 0;
