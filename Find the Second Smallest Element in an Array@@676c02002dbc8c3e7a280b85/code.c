@@ -2,6 +2,7 @@
 #include<stdio.h>
 int main(){
     int n;
+    int all_same=0;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
@@ -16,6 +17,18 @@ int main(){
         }
     }
 }
-    printf("%d",arr[1]);
+for(int i=0;i<n;i++){
+    if(arr[i]==arr[0]){
+        all_same=1;
+    }
+    else{
+        continue;
+    }
+}
+    if(all_same==1){
+        printf("-1");
+    }
+    else{
+    printf("%d",arr[1]);}
     return 0;
 }
