@@ -18,7 +18,7 @@ int main(){
     }
 }
 for(int i=0;i<n;i++){
-    if(arr[i]==arr[0]){
+    if(arr[i]!=arr[0]){
         all_same=1;
     }
     else{
