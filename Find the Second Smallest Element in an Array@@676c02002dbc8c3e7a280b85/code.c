@@ -25,7 +25,7 @@ for(int i=0;i<n;i++){
         continue;
     }
 }
-    if(all_same==1){
+    if(all_same==0){
         printf("-1");
     }
     else{
