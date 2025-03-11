@@ -8,21 +8,20 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int k;
+    int found=0;
     scanf("%d",&k);
     for(int i=0;i<n;i++){
-        if(i>n){
         if(k==arr[i]){
             printf("%d",i);
+            found=1;
             break;
         }
         else{
             continue;
-        }
-        }
-        else{
-            printf("-1");
-        }
+        }   
     }
-    // printf("-1");
+    if(found==0){
+        printf("-1");
+    }
     return 0;
 }
