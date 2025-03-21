@@ -25,5 +25,5 @@ int main(){
             continue;
         }
     }
-    reyturn 0;
+    return 0;
 }
