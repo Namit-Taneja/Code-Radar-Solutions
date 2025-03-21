@@ -7,9 +7,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    // for(int i=0;i<n;i++){
-        int prod=arr[n-1]*arr[n-2];
-    // }
+    int prod=arr[n-1]*arr[n-2];
     printf("%d",prod);
     return 0;
 }
