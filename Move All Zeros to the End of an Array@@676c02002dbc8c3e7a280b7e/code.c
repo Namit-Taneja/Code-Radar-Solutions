@@ -21,7 +21,7 @@ int main(){
             count3+=1;
         }
     }
-    int arr4[];
+    int arr4[20];
     for(int i=0;i<count2;i++){
         arr4[i]=arr2[i];
     }
