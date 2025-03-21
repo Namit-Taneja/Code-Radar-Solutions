@@ -25,5 +25,6 @@ int main(){
             continue;
         }
     }
+    printf("%d",countt);
     return 0;
 }
