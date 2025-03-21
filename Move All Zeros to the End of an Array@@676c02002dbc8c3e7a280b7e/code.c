@@ -7,9 +7,9 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int arr2[];
+    int arr2[20];
     int count2=0;
-    int arr3[];
+    int arr3[20];
     int count3=0;
     for(int i=0;i<n;i++){
         if(arr[i]!=0){
