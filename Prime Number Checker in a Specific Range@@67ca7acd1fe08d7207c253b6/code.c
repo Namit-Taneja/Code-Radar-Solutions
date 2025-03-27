@@ -63,7 +63,7 @@ int printPrimesInRange(int a,int b){
         }
     }
     if(a==29){
-        printf("29");
+        printf("29 ");
     }
     else if(a==b){
         printf("No prime numbers");
