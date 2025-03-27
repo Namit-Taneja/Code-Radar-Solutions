@@ -65,8 +65,7 @@ int printPrimesInRange(int a,int b){
      if(a==b){
         printf("No prime numbers");
     }
-    // if(primecount==0)4
-    else{
+    else if(primecount==0){
         printf("No prime numbers");
     }
 }
