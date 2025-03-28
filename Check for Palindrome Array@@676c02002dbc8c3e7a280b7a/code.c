@@ -15,9 +15,9 @@ int main(){
         arr2[b]=arr[i];
         b++;
     }
-    for(int i=0;i<n;i++){
-        printf("%d",arr2[i]);
-    }
+    // for(int i=0;i<n;i++){
+    //     printf("%d",arr2[i]);
+    // }
     for(int i=0;i<n;i++){
         if(arr[i]!=arr2[i]){
             a=a+1;
