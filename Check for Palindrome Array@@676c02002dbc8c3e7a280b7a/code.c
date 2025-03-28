@@ -6,11 +6,14 @@ int main(){
     int arr[n];
     int arr2[n];
     int a=1;
+    int b=0;
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     for(int i=n;i>0;i--){
-        arr2[i]=arr[i];
+        
+        arr2[b]=arr[i];
+        b++;
     }
     for(int i=0;i<n;i++){
         printf("%d",arr2[i]);
