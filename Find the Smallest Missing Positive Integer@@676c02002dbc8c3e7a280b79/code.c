@@ -22,8 +22,8 @@ int main(){
             missing++;
         
         }
-        else{
-            printf("%d",missing);
-        }
+
+           
     }
+     printf("%d",missing);
 }
