@@ -16,10 +16,14 @@ int main(){
             }
         }
     }
+    int missing=1;
     for(int i=0;i<n;i++){
-        if(arr[i]!=i+1){
-            printf("%d",i+1);
+        if(arr[i]==missing){
+            missing++;
+        
+        }
+        else{
+            printf("%d",missing);
         }
     }
-    // return n+1;
 }
