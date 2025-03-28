@@ -21,5 +21,5 @@ int main(){
             printf("%d",i+1);
         }
     }
-    return n+1;
+    // return n+1;
 }
