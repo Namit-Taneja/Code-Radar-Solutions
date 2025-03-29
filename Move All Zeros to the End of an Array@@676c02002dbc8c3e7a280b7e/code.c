@@ -24,8 +24,9 @@ int main(){
         }
     }
     // int arr4[n];
-    for(int i=b+1;i<n;i++){
-        arr2[i]=0;
+    for(int i=0;i<count3;i++){
+        arr2[b]=0;
+        b++;
         
     }
     // for(int i=0;i<count3;i++){
