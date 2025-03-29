@@ -7,30 +7,36 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int arr2[20];
-    int count2=0;
-    int arr3[20];
+    int arr2[n];
+    // int count2=0;
+    // int arr3[n];
     int count3=0;
+    int b=0;
     for(int i=0;i<n;i++){
         if(arr[i]!=0){
-            arr2[i]=arr[i];
-            count2+=1;
+            arr2[b]=arr[i];
+            b++;
+            // count2+=1;
         }
         else{
-            arr3[i]=arr[i];
+            // arr3[i]=arr[i];
             count3+=1;
         }
     }
-    int arr4[20];
-    for(int i=0;i<count2;i++){
-        arr4[i]=arr2[i];
+    // int arr4[n];
+    for(int i=b+1;i<n;i++){
+        arr2[i]=0;
+        
     }
-    for(int i=0;i<count3;i++){
-        arr4[count2+i]=arr3[i];
-    }
-    int count4=count2+count3;
-    for(int i=0;i<count4;i++){
-        printf("%d",arr4[i]);
+    // for(int i=0;i<count3;i++){
+        // arr4[count2+i]=arr3[i];
+    // }
+    // int count4=count2+count3;
+    // for(int i=0;i<count4;i++){
+    //     printf("%d",arr4[i]);
+    // }
+    for(int i=0;i<n;i++){
+        printf("%d";arr[i]);
     }
     return 0;
 }  
