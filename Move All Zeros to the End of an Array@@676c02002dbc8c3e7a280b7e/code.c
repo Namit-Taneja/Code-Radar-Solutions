@@ -33,4 +33,4 @@ int main(){
         printf("%d",arr4[i]);
     }
     return 0;
-}
+}  
