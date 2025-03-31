@@ -14,7 +14,7 @@ int findOccurance(int arr[],int n,int target,char mode){
         int j=1;
         for(int i=n;i>0;i--){
             if(arr[i]==target)
-            printf("%d",j);
+            return j;
         }
         else{
             j+=1;
