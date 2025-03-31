@@ -12,7 +12,7 @@ int findOccurrence(int arr[],int n,int target,char mode){
     }
     else{
         int j=0;
-        for(int i=n;i>0;i--){
+        for(int i=n-1;i>=0;i--){
             if(arr[i]==target){
                 return j;
             }
